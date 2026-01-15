@@ -1,13 +1,11 @@
-# ALICE on Contiki-NG
 
-ALICE supports both Contiki and Contiki-NG !
-In this version (Contiki-NG), ALICE runs even in the Cooja simulator.
+
 
 ALICE example code location: ./examples/6tisch/simple-node-ksh/
 
 ALICE source code location: ./os/services/alice/
 
-
+Reference Taken:
 # ALICE
 
 ALICE is an autonomous link-based TSCH cell scheduling solution. ALICE uses Contiki Orchestra code as its skeleton code. ALICE uses three slotframes (EB, broadcast/default and unicast) as Orchestra does. The main difference is unicast slotframe schedule which implements time-varying scheduling and link-based scheduling.
